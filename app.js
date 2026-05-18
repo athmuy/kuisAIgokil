@@ -1,9 +1,3 @@
-/* ═══════════════════════════════════════
-   app.js — MediaPipe Pose (Browser)
-   Logika sama persis dengan kode Python,
-   tapi jalan 100% di browser tanpa server.
-═══════════════════════════════════════ */
-
 const HOLD_DURATION      = 1500;   // ms — tahan sebelum jawab
 const RAISE_THRESHOLD    = 0.10;   // seberapa jauh pergelangan di atas bahu (0–1)
 const VISIBILITY_MIN     = 0.5;    // minimum visibility landmark MediaPipe
