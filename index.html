@@ -35,7 +35,6 @@
 
 <!-- SCREEN: GAME -->
 <div id="screen-game" class="screen">
-  <!-- Video tersembunyi, hanya untuk sumber data MediaPipe -->
   <video id="input-video" style="display:none;" playsinline></video>
 
   <div class="cam-panel">
@@ -114,7 +113,7 @@
 <div class="countdown-overlay" id="countdown-overlay"><div class="countdown-number" id="countdown-num">3</div></div>
 <div class="feedback-overlay"  id="feedback-overlay"><div class="feedback-bubble"  id="feedback-bubble">✓</div></div>
 
-<!-- MediaPipe Pose (jalan 100% di browser, tanpa Python) -->
+<!-- MediaPipe Pose -->
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
